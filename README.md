@@ -1,5 +1,6 @@
-# jiankangtianbao3.0
-<h2>健康填报3.0版本</h2>
+# jiankangtianbao2.0
+<h2>健康填报2.0版本</h2>
+<h2>修改了数据结构，较杂</h2>
 <h3>使用idea编辑器，使用了maven框架:以下为部分更新</h3>
 <ul>
   <li>修改jdk核心，由原来的jdk15升级为jdk17</li>
