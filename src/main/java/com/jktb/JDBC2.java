@@ -14,8 +14,8 @@ public class JDBC2 {
     static final String JDBC_DRIVER = "com.mysql.cj.jdbc.Driver";
     static final String DB_URL = "jdbc:mysql://localhost:3306/fjsdxy?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC";
     //MySQL账号密码
-    static final String USER = "root";
-    static final String PASS = "hx020730";
+    static final String USER = "账号";
+    static final String PASS = "密码";
     int i=0;
     static long day=0;
     ArrayList<Integer> id = new ArrayList<Integer>();
@@ -100,11 +100,11 @@ public class JDBC2 {
                     dqtx(day);
                     if(mis<=0){
                         new JDBC1(id.get(i));
-                        new Thread(new In(token.get(i),"过期提示","您的体温填报已过期，请及时联系管理员2719035729，联系时请说明来意")).start();
+                        new Thread(new In(token.get(i),"过期提示","您的体温填报已过期，请及时联系管理员 账号，联系时请说明来意")).start();
                     }
                     i++;
                 }else{
-                    new Thread(new In(token.get(i),"提示","您的体温填报已经过期，若未到期，请联系管理员2719035729")).start();
+                    new Thread(new In(token.get(i),"提示","您的体温填报已经过期，若未到期，请联系管理员 账号")).start();
                 }
             }
             i=0;
