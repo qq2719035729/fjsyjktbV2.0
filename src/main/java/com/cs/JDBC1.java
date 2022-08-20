@@ -9,8 +9,8 @@ public class JDBC1 {
     static final String JDBC_DRIVER = "com.mysql.cj.jdbc.Driver";
     static final String DB_URL = "jdbc:mysql://localhost:3306/fjsdxy?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC";
     //MySQL账号密码
-    static final String USER = "root";
-    static final String PASS = "hx020730";
+    static final String USER = "账号";
+    static final String PASS = "密码";
     int i;
 
     public JDBC1() {
