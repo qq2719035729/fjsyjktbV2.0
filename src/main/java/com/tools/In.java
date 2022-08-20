@@ -12,7 +12,7 @@ public class In implements  Runnable{
     private static Logger logger = LogManager.getLogger(In.class.getName());
     /* public static void main(String[] args) {
          String redisKey= "pushplus:canSend";
-         String token= "264c3ba93dcb4fddb492985298149421"; //您的token
+         String token= "推送加"; //您的token
          String title= "标题";  //消息的标题
          String content= "内容";  //消息的内容,包含文字、换行和图片
          String url = "https://www.pushplus.plus/send?title="+ title +"&content="+ content +"&token=" + token;
